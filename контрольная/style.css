@@ -1,0 +1,206 @@
+:root {
+    --red: #853500;
+    --blue: #0C1C3B;
+    --dark-gray: #363636;
+    --white: #FFFEFD;
+}
+
+body {
+    /* display: flex; */
+    /* flex-direction: column-reverse; */
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    margin-left: 250px;
+    margin-right: 60px;
+    max-width: 1300px;
+    /* text-align: center; */
+    overflow: hidden;
+    /* align-content: normal; */
+    
+}
+
+.header {
+    display: flex;
+    padding: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    max-width: 1630px;
+    text-align: center;
+    height: 50px;
+    /* justify-content: space-between; */
+    /* display: inline-block; */
+
+}
+
+
+.lb {
+    text-align: left;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* padding: 20px; */
+    max-width: 200px;
+    /* align-content: space-between; */
+}
+
+.logo {
+    font-family: 'Novelist', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    padding-right: 70px;
+}
+
+.bg {
+    display: inline-block;
+    margin-top: 15px;
+
+}
+
+.lb2 {
+    /* justify-content: flex-end; */
+    /* margin-left: 500px; */
+    /* text-align: right; */
+    /* text-align: right; */
+    display: flex;
+    /* display: inline-block; */
+    /* text-align: right; */
+    justify-content: flex-end;
+    /* float: right; */
+    /* width: 100px; */
+    /* margin-left: 200px; */
+    max-width: 150px;
+    padding: 20px;
+    position: relative;
+    /* margin-top: -80px; */
+    margin-top: -90px;
+    /* margin-left: 1230px; */
+    margin-left: 800px;
+}
+
+.en {
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 50px;
+    max-height: 50px;
+    /* padding: 0; */
+    display: inline-block;
+}
+
+.litle-line {
+    transform: rotate(90deg);
+    max-width: 50px;
+    display: inline-block;
+}
+
+.korzina {
+    /* display: inline-block; */
+    margin-top: 18px;
+    
+}
+
+.korzina p {
+    font-family: 'Nunito', sans-serif;
+    color: #B60404;
+    font-size: 12px;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.line {
+    position: absolute;
+    justify-content: start;
+    left: 0;
+    top: 95px;
+    /* width: 1488px; */
+    width: 1920px;
+    margin-top: -17px;
+    /* background-color: #cb1010; */
+    box-shadow: inset;
+    
+    /* outer: justify-content */
+    /* float: left; */
+}
+
+
+.main1 {
+    display: flex;
+    /* justify-content: center; */
+}
+
+.text-button {
+    flex-direction: column;
+    z-index: 1;
+}
+
+.text-button h1 {
+    font-family: 'Novelist', sans-serif;
+    font-size: 96px;
+    font-weight: 100;
+    
+} 
+
+.button button {
+    background-color: var(--red);
+    width: 180px;
+    height: 50px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 3px;
+}
+
+button text {
+    color: var(--white);
+}
+
+.text-photo{
+    /* z-index: 2; */
+}
+
+.photo1 img {
+    margin-left: -42px;
+    margin-top: 50px;
+    border-radius: 200px;
+    z-index: 2;
+}
+
+.women p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: -140px;
+    margin-top: -100px;
+}
+
+.women2 p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 265px;
+    margin-top: -430px;
+}
+
+.photos {
+    /* display: inline; */
+    margin: 0 auto;
+    justify-content: flex-start;
+}
+
+.women-photo img {
+    border-top-left-radius: 50px;
+    margin-top: 55px;
+    margin-left: 300px;
+}
+
+.women-photo2 img {
+    border-bottom-right-radius: 50px;
+    margin-top: -153px;
+    margin-left: 415px;
+    position: absolute;
+}
+
+
+
+
